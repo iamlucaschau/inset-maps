@@ -1,0 +1,24 @@
+node_modules
+dist
+.DS_Store
+out
+
+# Secrets: never commit API keys
+.env*
+!.env.example
+gemini_key*.txt*
+
+# Raw TTS output cache (regenerable from voiceover/*.json, saves quota — keep the local copy)
+voiceover/.cache/
+
+# Pixabay SFX + music: licensed for use in videos, not for redistribution as files (catalog.json is tracked)
+public/sfx/**/*.mp3
+
+# Renders + local listening copies (regenerable; delivered from the episode folder)
+Map/**/*.mp4
+Map/**/vo.mp3
+
+# Third-party material kept on this machine for study only: never commit
+Map/doi-thu/
+Map/phan-tich-doi-thu/_work/
+Test/

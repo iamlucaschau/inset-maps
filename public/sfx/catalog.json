@@ -1,0 +1,749 @@
+[
+  {
+    "file": "sfx/whoosh/simple-whoosh-382724.mp3",
+    "category": "whoosh",
+    "title": "Simple Whoosh",
+    "author": "DRAGON-STUDIO",
+    "seconds": 1,
+    "lufs": -15.2,
+    "source": "https://pixabay.com/sound-effects/382724/"
+  },
+  {
+    "file": "sfx/whoosh/whoosh-cinematic-376875.mp3",
+    "category": "whoosh",
+    "title": "Whoosh Cinematic",
+    "author": "DRAGON-STUDIO",
+    "seconds": 2,
+    "lufs": -17,
+    "source": "https://pixabay.com/sound-effects/376875/"
+  },
+  {
+    "file": "sfx/whoosh/whoosh-effect-382717.mp3",
+    "category": "whoosh",
+    "title": "Whoosh Effect",
+    "author": "DRAGON-STUDIO",
+    "seconds": 1,
+    "lufs": -20.6,
+    "source": "https://pixabay.com/sound-effects/382717/"
+  },
+  {
+    "file": "sfx/whoosh/epic-whoosh-478371.mp3",
+    "category": "whoosh",
+    "title": "Epic Whoosh",
+    "author": "DRAGON-STUDIO",
+    "seconds": 3,
+    "lufs": -13.7,
+    "source": "https://pixabay.com/sound-effects/478371/"
+  },
+  {
+    "file": "sfx/whoosh/simple-whoosh-02-433006.mp3",
+    "category": "whoosh",
+    "title": "Simple Whoosh 02",
+    "author": "DRAGON-STUDIO",
+    "seconds": 4,
+    "lufs": -12.2,
+    "source": "https://pixabay.com/sound-effects/433006/"
+  },
+  {
+    "file": "sfx/whoosh/whoosh-cinematic-sound-effect-376889.mp3",
+    "category": "whoosh",
+    "title": "Whoosh Cinematic Sound Effect",
+    "author": "DRAGON-STUDIO",
+    "seconds": 3,
+    "lufs": -14.5,
+    "source": "https://pixabay.com/sound-effects/376889/"
+  },
+  {
+    "file": "sfx/whoosh/whoosh-motion-405445.mp3",
+    "category": "whoosh",
+    "title": "Whoosh Motion",
+    "author": "DRAGON-STUDIO",
+    "seconds": 1,
+    "lufs": -13.7,
+    "source": "https://pixabay.com/sound-effects/405445/"
+  },
+  {
+    "file": "sfx/whoosh/dramatic-whoosh-swing-487667.mp3",
+    "category": "whoosh",
+    "title": "Dramatic Whoosh Swing",
+    "author": "DRAGON-STUDIO",
+    "seconds": 2,
+    "lufs": -7,
+    "source": "https://pixabay.com/sound-effects/487667/"
+  },
+  {
+    "file": "sfx/whoosh/simple-whoosh-03-433005.mp3",
+    "category": "whoosh",
+    "title": "Simple Whoosh 03",
+    "author": "DRAGON-STUDIO",
+    "seconds": 4,
+    "lufs": -11.2,
+    "source": "https://pixabay.com/sound-effects/433005/"
+  },
+  {
+    "file": "sfx/whoosh/whoosh-effect-405447.mp3",
+    "category": "whoosh",
+    "title": "Whoosh Effect",
+    "author": "DRAGON-STUDIO",
+    "seconds": 1,
+    "lufs": -9.4,
+    "source": "https://pixabay.com/sound-effects/405447/"
+  },
+  {
+    "file": "sfx/whoosh/whoosh-cinematic-161021.mp3",
+    "category": "whoosh",
+    "title": "Whoosh Cinematic",
+    "author": "LordSonny",
+    "seconds": 3,
+    "lufs": -8.2,
+    "source": "https://pixabay.com/sound-effects/161021/"
+  },
+  {
+    "file": "sfx/whoosh/clean-whoosh-382726.mp3",
+    "category": "whoosh",
+    "title": "Clean Whoosh",
+    "author": "DRAGON-STUDIO",
+    "seconds": 1,
+    "lufs": -16.8,
+    "source": "https://pixabay.com/sound-effects/382726/"
+  },
+  {
+    "file": "sfx/whoosh/whoosh-cinematic-5-376880.mp3",
+    "category": "whoosh",
+    "title": "Whoosh Cinematic 5",
+    "author": "DRAGON-STUDIO",
+    "seconds": 2,
+    "lufs": -16.2,
+    "source": "https://pixabay.com/sound-effects/376880/"
+  },
+  {
+    "file": "sfx/whoosh/whoosh-short-realistic-379079.mp3",
+    "category": "whoosh",
+    "title": "Whoosh Short Realistic",
+    "author": "Virtual_Vibes",
+    "seconds": 2,
+    "lufs": -27.8,
+    "source": "https://pixabay.com/sound-effects/379079/"
+  },
+  {
+    "file": "sfx/click/computer-mouse-click-352734.mp3",
+    "category": "click",
+    "title": "Computer Mouse Click",
+    "author": "Universfield",
+    "seconds": 1,
+    "lufs": -33.4,
+    "source": "https://pixabay.com/sound-effects/352734/"
+  },
+  {
+    "file": "sfx/click/mouse-click-351398.mp3",
+    "category": "click",
+    "title": "Mouse Click",
+    "author": "Universfield",
+    "seconds": 1,
+    "lufs": -27.2,
+    "source": "https://pixabay.com/sound-effects/351398/"
+  },
+  {
+    "file": "sfx/click/computer-mouse-click-02-383961.mp3",
+    "category": "click",
+    "title": "Computer Mouse Click 02",
+    "author": "Universfield",
+    "seconds": 1,
+    "lufs": -28.8,
+    "source": "https://pixabay.com/sound-effects/383961/"
+  },
+  {
+    "file": "sfx/click/digital-click-357350.mp3",
+    "category": "click",
+    "title": "Digital Click",
+    "author": "CreatorsHome",
+    "seconds": 1,
+    "lufs": -19.8,
+    "source": "https://pixabay.com/sound-effects/357350/"
+  },
+  {
+    "file": "sfx/click/mouse-click-sfx-444806.mp3",
+    "category": "click",
+    "title": "Mouse Click SFX",
+    "author": "DRAGON-STUDIO",
+    "seconds": 1,
+    "lufs": -24.5,
+    "source": "https://pixabay.com/sound-effects/444806/"
+  },
+  {
+    "file": "sfx/click/keyboard-click-327728.mp3",
+    "category": "click",
+    "title": "Keyboard Click",
+    "author": "CreatorsHome",
+    "seconds": 1,
+    "lufs": -18.7,
+    "source": "https://pixabay.com/sound-effects/327728/"
+  },
+  {
+    "file": "sfx/click/sound-of-mouse-click-4-478760.mp3",
+    "category": "click",
+    "title": "Sound Of Mouse Click 4",
+    "author": "SoundReality",
+    "seconds": 1,
+    "lufs": -20.3,
+    "source": "https://pixabay.com/sound-effects/478760/"
+  },
+  {
+    "file": "sfx/click/mouse-click-398644.mp3",
+    "category": "click",
+    "title": "Mouse Click",
+    "author": "DRAGON-STUDIO",
+    "seconds": 1,
+    "lufs": -25.1,
+    "source": "https://pixabay.com/sound-effects/398644/"
+  },
+  {
+    "file": "sfx/click/mouse-click-104737.mp3",
+    "category": "click",
+    "title": "mouse click",
+    "author": "freesound_community",
+    "seconds": 1,
+    "lufs": -23.1,
+    "source": "https://pixabay.com/sound-effects/104737/"
+  },
+  {
+    "file": "sfx/click/click-409642.mp3",
+    "category": "click",
+    "title": "Click",
+    "author": "photos_",
+    "seconds": 1,
+    "lufs": -33.6,
+    "source": "https://pixabay.com/sound-effects/409642/"
+  },
+  {
+    "file": "sfx/click/pen-click-411629.mp3",
+    "category": "click",
+    "title": "Pen Click",
+    "author": "SoundReality",
+    "seconds": 2,
+    "lufs": -24,
+    "source": "https://pixabay.com/sound-effects/411629/"
+  },
+  {
+    "file": "sfx/flash/camera-flash-494027.mp3",
+    "category": "flash",
+    "title": "Camera flash",
+    "author": "kauasilbershlachparodes",
+    "seconds": 2,
+    "lufs": -18.5,
+    "source": "https://pixabay.com/sound-effects/494027/"
+  },
+  {
+    "file": "sfx/flash/camera-flash-204151.mp3",
+    "category": "flash",
+    "title": "Camera Flash",
+    "author": "MalarBrush",
+    "seconds": 2,
+    "lufs": -18.1,
+    "source": "https://pixabay.com/sound-effects/204151/"
+  },
+  {
+    "file": "sfx/flash/camera-shutter-and-flash-combined-6827.mp3",
+    "category": "flash",
+    "title": "Camera shutter and flash combined",
+    "author": "freesound_community",
+    "seconds": 3,
+    "lufs": -9.8,
+    "source": "https://pixabay.com/sound-effects/6827/"
+  },
+  {
+    "file": "sfx/flash/flash-90604.mp3",
+    "category": "flash",
+    "title": "Flash",
+    "author": "freesound_community",
+    "seconds": 3,
+    "lufs": -20.7,
+    "source": "https://pixabay.com/sound-effects/90604/"
+  },
+  {
+    "file": "sfx/flash/flash-and-quicksilver-103357.mp3",
+    "category": "flash",
+    "title": "Flash and Quicksilver",
+    "author": "freesound_community",
+    "seconds": 5,
+    "lufs": -17.3,
+    "source": "https://pixabay.com/sound-effects/103357/"
+  },
+  {
+    "file": "sfx/flash/flash-363544.mp3",
+    "category": "flash",
+    "title": "Flash",
+    "author": "MagiaZ",
+    "seconds": 5,
+    "lufs": -22.6,
+    "source": "https://pixabay.com/sound-effects/363544/"
+  },
+  {
+    "file": "sfx/flash/old-camera-flash-6800.mp3",
+    "category": "flash",
+    "title": "Old camera flash",
+    "author": "freesound_community",
+    "seconds": 4,
+    "lufs": -12.4,
+    "source": "https://pixabay.com/sound-effects/6800/"
+  },
+  {
+    "file": "sfx/flash/flash-329364.mp3",
+    "category": "flash",
+    "title": "Flash",
+    "author": "MagiaZ",
+    "seconds": 5,
+    "lufs": -22.8,
+    "source": "https://pixabay.com/sound-effects/329364/"
+  },
+  {
+    "file": "sfx/flash/flash-speed-zoom-sound-effect-322955.mp3",
+    "category": "flash",
+    "title": "Flash, Speed, Zoom Sound Effect",
+    "author": "JesusChristIsGod",
+    "seconds": 3,
+    "lufs": -13.6,
+    "source": "https://pixabay.com/sound-effects/322955/"
+  },
+  {
+    "file": "sfx/flash/camera-flash-classic-clear-hd-380053.mp3",
+    "category": "flash",
+    "title": "Camera Flash Classic Clear HD",
+    "author": "VirtualZero",
+    "seconds": 3,
+    "lufs": -17.9,
+    "source": "https://pixabay.com/sound-effects/380053/"
+  },
+  {
+    "file": "sfx/flash/flash-363550.mp3",
+    "category": "flash",
+    "title": "Flash",
+    "author": "MagiaZ",
+    "seconds": 5,
+    "lufs": -27.3,
+    "source": "https://pixabay.com/sound-effects/363550/"
+  },
+  {
+    "file": "sfx/flash/flash-397859.mp3",
+    "category": "flash",
+    "title": "Flash",
+    "author": "MagiaZ",
+    "seconds": 5,
+    "lufs": -25.3,
+    "source": "https://pixabay.com/sound-effects/397859/"
+  },
+  {
+    "file": "sfx/shutter/shutter-click-3-494029.mp3",
+    "category": "shutter",
+    "title": "shutter click 3",
+    "author": "kauasilbershlachparodes",
+    "seconds": 1,
+    "lufs": -19.5,
+    "source": "https://pixabay.com/sound-effects/494029/"
+  },
+  {
+    "file": "sfx/shutter/camera-shutter-199580.mp3",
+    "category": "shutter",
+    "title": "Camera Shutter",
+    "author": "Universfield",
+    "seconds": 1,
+    "lufs": -17.5,
+    "source": "https://pixabay.com/sound-effects/199580/"
+  },
+  {
+    "file": "sfx/shutter/camera-shutter-390292.mp3",
+    "category": "shutter",
+    "title": "Camera Shutter",
+    "author": "DRAGON-STUDIO",
+    "seconds": 3,
+    "lufs": -20.7,
+    "source": "https://pixabay.com/sound-effects/390292/"
+  },
+  {
+    "file": "sfx/shutter/camera-shutter-effect-390310.mp3",
+    "category": "shutter",
+    "title": "Camera Shutter Effect",
+    "author": "DRAGON-STUDIO",
+    "seconds": 3,
+    "lufs": -22.5,
+    "source": "https://pixabay.com/sound-effects/390310/"
+  },
+  {
+    "file": "sfx/shutter/camera-shutter-314056.mp3",
+    "category": "shutter",
+    "title": "Camera Shutter",
+    "author": "Kave_msri",
+    "seconds": 1,
+    "lufs": -25,
+    "source": "https://pixabay.com/sound-effects/314056/"
+  },
+  {
+    "file": "sfx/shutter/canon-40d-camera-shutter-85733.mp3",
+    "category": "shutter",
+    "title": "canon 40D camera shutter",
+    "author": "freesound_community",
+    "seconds": 2,
+    "lufs": -27.6,
+    "source": "https://pixabay.com/sound-effects/85733/"
+  },
+  {
+    "file": "sfx/shutter/camera-shutter-107889.mp3",
+    "category": "shutter",
+    "title": "Camera Shutter",
+    "author": "freesound_community",
+    "seconds": 2,
+    "lufs": -35.3,
+    "source": "https://pixabay.com/sound-effects/107889/"
+  },
+  {
+    "file": "sfx/shutter/camera-shutter-36931.mp3",
+    "category": "shutter",
+    "title": "camera shutter",
+    "author": "freesound_community",
+    "seconds": 1,
+    "lufs": -33.4,
+    "source": "https://pixabay.com/sound-effects/36931/"
+  },
+  {
+    "file": "sfx/shutter/camera-burst-shutter-sound-fujifilm-xt30ii-258413.mp3",
+    "category": "shutter",
+    "title": "Camera Burst Shutter sound Fujifilm XT30ii",
+    "author": "Gaurav_Sinha",
+    "seconds": 4,
+    "lufs": -33.1,
+    "source": "https://pixabay.com/sound-effects/258413/"
+  },
+  {
+    "file": "sfx/shutter/camera-shutter-393057.mp3",
+    "category": "shutter",
+    "title": "Camera shutter",
+    "author": "spinopel",
+    "seconds": 1,
+    "lufs": -18.9,
+    "source": "https://pixabay.com/sound-effects/393057/"
+  },
+  {
+    "file": "sfx/progress/sharp-riser-407120.mp3",
+    "category": "progress",
+    "title": "Sharp riser",
+    "author": "Youssefmizani",
+    "seconds": 8,
+    "lufs": -12.2,
+    "source": "https://pixabay.com/sound-effects/407120/"
+  },
+  {
+    "file": "sfx/progress/level-up-chime-132474.mp3",
+    "category": "progress",
+    "title": "Level Up Chime",
+    "author": "Universfield",
+    "seconds": 3,
+    "lufs": -11.7,
+    "source": "https://pixabay.com/sound-effects/132474/"
+  },
+  {
+    "file": "sfx/progress/awesome-level-up-351714.mp3",
+    "category": "progress",
+    "title": "Awesome Level Up",
+    "author": "KoiRoylers",
+    "seconds": 2,
+    "lufs": -12.6,
+    "source": "https://pixabay.com/sound-effects/351714/"
+  },
+  {
+    "file": "sfx/progress/riser-intro-407123.mp3",
+    "category": "progress",
+    "title": "Riser intro",
+    "author": "Youssefmizani",
+    "seconds": 8,
+    "lufs": -14.2,
+    "source": "https://pixabay.com/sound-effects/407123/"
+  },
+  {
+    "file": "sfx/progress/xp-gain-magic-tone-453274.mp3",
+    "category": "progress",
+    "title": "XP Gain Magic Tone",
+    "author": "humordome",
+    "seconds": 6,
+    "lufs": -21.1,
+    "source": "https://pixabay.com/sound-effects/453274/"
+  },
+  {
+    "file": "sfx/progress/game-loading-sound-effect-380367.mp3",
+    "category": "progress",
+    "title": "game loading sound effect",
+    "author": "gargamel10",
+    "seconds": 6,
+    "lufs": -17.9,
+    "source": "https://pixabay.com/sound-effects/380367/"
+  },
+  {
+    "file": "sfx/progress/robot-broken-loading-206293.mp3",
+    "category": "progress",
+    "title": "Robot broken / loading",
+    "author": "Kuzu420",
+    "seconds": 2,
+    "lufs": -23.6,
+    "source": "https://pixabay.com/sound-effects/206293/"
+  },
+  {
+    "file": "sfx/deephit/riser-hit-sfx-001-289802.mp3",
+    "category": "deephit",
+    "title": "Riser Hit sfx 001",
+    "author": "AudioPapkin",
+    "seconds": 4,
+    "lufs": -12.7,
+    "source": "https://pixabay.com/sound-effects/289802/"
+  },
+  {
+    "file": "sfx/deephit/cinematic-impact-boom-05-352465.mp3",
+    "category": "deephit",
+    "title": "Cinematic Impact Boom 05",
+    "author": "Universfield",
+    "seconds": 2,
+    "lufs": -16.6,
+    "source": "https://pixabay.com/sound-effects/352465/"
+  },
+  {
+    "file": "sfx/deephit/deep-hit-175726.mp3",
+    "category": "deephit",
+    "title": "Deep Hit",
+    "author": "GregorQuendel",
+    "seconds": 4,
+    "lufs": -14.8,
+    "source": "https://pixabay.com/sound-effects/175726/"
+  },
+  {
+    "file": "sfx/deephit/cinematic-low-hit-291095.mp3",
+    "category": "deephit",
+    "title": "Cinematic Low Hit",
+    "author": "Universfield",
+    "seconds": 2,
+    "lufs": -16.6,
+    "source": "https://pixabay.com/sound-effects/291095/"
+  },
+  {
+    "file": "sfx/deephit/low-thumpy-kick-reverb-hit-494833.mp3",
+    "category": "deephit",
+    "title": "Low Thumpy Kick Reverb Hit",
+    "author": "Black_Kumizhi",
+    "seconds": 2,
+    "lufs": -13,
+    "source": "https://pixabay.com/sound-effects/494833/"
+  },
+  {
+    "file": "sfx/deephit/cinematic-impact-boom-03-294435.mp3",
+    "category": "deephit",
+    "title": "Cinematic Impact Boom 03",
+    "author": "Universfield",
+    "seconds": 3,
+    "lufs": -11.9,
+    "source": "https://pixabay.com/sound-effects/294435/"
+  },
+  {
+    "file": "sfx/deephit/deep-metal-clang-87901.mp3",
+    "category": "deephit",
+    "title": "Deep metal clang",
+    "author": "freesound_community",
+    "seconds": 1,
+    "lufs": -17.7,
+    "source": "https://pixabay.com/sound-effects/87901/"
+  },
+  {
+    "file": "sfx/deephit/impact-thud-291047.mp3",
+    "category": "deephit",
+    "title": "Impact Thud",
+    "author": "Universfield",
+    "seconds": 1,
+    "lufs": -21.4,
+    "source": "https://pixabay.com/sound-effects/291047/"
+  },
+  {
+    "file": "sfx/deephit/impact-cinematic-boom-02-487858.mp3",
+    "category": "deephit",
+    "title": "Impact – Cinematic Boom 02",
+    "author": "Universfield",
+    "seconds": 3,
+    "lufs": -14.4,
+    "source": "https://pixabay.com/sound-effects/487858/"
+  },
+  {
+    "file": "sfx/hit/punch-impact-hit-567196.mp3",
+    "category": "hit",
+    "title": "Punch Impact Hit",
+    "author": "Universfield",
+    "seconds": 2,
+    "lufs": -14.7,
+    "source": "https://pixabay.com/sound-effects/567196/"
+  },
+  {
+    "file": "sfx/hit/cinematic-piano-hit-567216.mp3",
+    "category": "hit",
+    "title": "Cinematic Piano Hit",
+    "author": "Universfield",
+    "seconds": 4,
+    "lufs": -14.2,
+    "source": "https://pixabay.com/sound-effects/567216/"
+  },
+  {
+    "file": "sfx/hit/ks-motion-metal-hit-351564.mp3",
+    "category": "hit",
+    "title": "KS MOTION METAL HIT",
+    "author": "ALEXIS_GAMING_CAM",
+    "seconds": 2,
+    "lufs": -24.5,
+    "source": "https://pixabay.com/sound-effects/351564/"
+  },
+  {
+    "file": "sfx/hit/heavy-cineamtic-hit-166888.mp3",
+    "category": "hit",
+    "title": "Heavy Cineamtic Hit",
+    "author": "LordSonny",
+    "seconds": 5,
+    "lufs": -8.8,
+    "source": "https://pixabay.com/sound-effects/166888/"
+  },
+  {
+    "file": "sfx/hit/cinematic-impact-hit-352702.mp3",
+    "category": "hit",
+    "title": "Cinematic Impact Hit",
+    "author": "Universfield",
+    "seconds": 3,
+    "lufs": -20.4,
+    "source": "https://pixabay.com/sound-effects/352702/"
+  },
+  {
+    "file": "sfx/hit/horror-hit-443980.mp3",
+    "category": "hit",
+    "title": "Horror Hit",
+    "author": "Universfield",
+    "seconds": 3,
+    "lufs": -15.5,
+    "source": "https://pixabay.com/sound-effects/443980/"
+  },
+  {
+    "file": "sfx/hit/powerful-impact-hit-567212.mp3",
+    "category": "hit",
+    "title": "Powerful Impact Hit",
+    "author": "Universfield",
+    "seconds": 3,
+    "lufs": -13.9,
+    "source": "https://pixabay.com/sound-effects/567212/"
+  },
+  {
+    "file": "sfx/hit/orchestra-hit-240475.mp3",
+    "category": "hit",
+    "title": "Orchestra Hit",
+    "author": "11325622",
+    "seconds": 2,
+    "lufs": -14.4,
+    "source": "https://pixabay.com/sound-effects/240475/"
+  },
+  {
+    "file": "sfx/hit/horror-impact-hit-567238.mp3",
+    "category": "hit",
+    "title": "Horror Impact Hit",
+    "author": "Universfield",
+    "seconds": 4,
+    "lufs": -11,
+    "source": "https://pixabay.com/sound-effects/567238/"
+  },
+  {
+    "file": "sfx/hit/powerful-cinematic-hit-454852.mp3",
+    "category": "hit",
+    "title": "Powerful Cinematic Hit",
+    "author": "Universfield",
+    "seconds": 3,
+    "lufs": -16.2,
+    "source": "https://pixabay.com/sound-effects/454852/"
+  },
+  {
+    "file": "sfx/music/p1-historical-documentary-music-349042.mp3",
+    "category": "music",
+    "title": "p1 Historical Documentary Music",
+    "author": "Tunetank",
+    "seconds": 110,
+    "lufs": -11.6,
+    "source": "https://pixabay.com/music/dramatic-classical-historical-documentary-music-349042/"
+  },
+  {
+    "file": "sfx/music/p1-history-history-music-569200.mp3",
+    "category": "music",
+    "title": "p1 History - History Music",
+    "author": "Tatamusic",
+    "seconds": 137,
+    "lufs": -12.3,
+    "source": "https://pixabay.com/music/military-historical-history-history-music-569200/"
+  },
+  {
+    "file": "sfx/music/p2-this-light-inspiration-217984.mp3",
+    "category": "music",
+    "title": "p2 This Light Inspiration",
+    "author": "moodmode",
+    "seconds": 146,
+    "lufs": -8.6,
+    "source": "https://pixabay.com/music/upbeat-this-light-inspiration-217984/"
+  },
+  {
+    "file": "sfx/music/p2-explainer-explainer-music-576633.mp3",
+    "category": "music",
+    "title": "p2 Explainer - Explainer Music",
+    "author": "AtlasAudio",
+    "seconds": 137,
+    "lufs": -7.5,
+    "source": "https://pixabay.com/music/corporate-explainer-explainer-music-576633/"
+  },
+  {
+    "file": "sfx/music/p3-science-documentary-169621.mp3",
+    "category": "music",
+    "title": "p3 Science Documentary",
+    "author": "Lexin_Music",
+    "seconds": 127,
+    "lufs": -11.9,
+    "source": "https://pixabay.com/music/build-up-scenes-science-documentary-169621/"
+  },
+  {
+    "file": "sfx/music/p3-documentary-nature-516419.mp3",
+    "category": "music",
+    "title": "p3 Documentary Nature",
+    "author": "leberch",
+    "seconds": 92,
+    "lufs": -14.9,
+    "source": "https://pixabay.com/music/adventure-documentary-nature-516419/"
+  },
+  {
+    "file": "sfx/music/p4-travel-adventure-586187.mp3",
+    "category": "music",
+    "title": "p4 Travel Adventure",
+    "author": "leberch",
+    "seconds": 94,
+    "lufs": -19.3,
+    "source": "https://pixabay.com/music/ambient-travel-adventure-586187/"
+  },
+  {
+    "file": "sfx/music/p4-cinematic-documentary-115669.mp3",
+    "category": "music",
+    "title": "p4 Cinematic Documentary",
+    "author": "Lexin_Music",
+    "seconds": 132,
+    "lufs": -11.1,
+    "source": "https://pixabay.com/music/beautiful-plays-cinematic-documentary-115669/"
+  },
+  {
+    "file": "sfx/music/p5-mystery-quirky-355604.mp3",
+    "category": "music",
+    "title": "p5 Mystery Quirky",
+    "author": "leberch",
+    "seconds": 145,
+    "lufs": -16.9,
+    "source": "https://pixabay.com/music/sneaky-mystery-quirky-355604/"
+  },
+  {
+    "file": "sfx/music/p5-the-smallest-detective-495789.mp3",
+    "category": "music",
+    "title": "p5 The Smallest Detective",
+    "author": "Tomas_Herudek",
+    "seconds": 97,
+    "lufs": -7.8,
+    "source": "https://pixabay.com/music/traditional-jazz-the-smallest-detective-funny-cartoon-playful-mysterious-music-495789/"
+  }
+]
