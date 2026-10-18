@@ -28,7 +28,9 @@ Nguồn sự thật duy nhất: **`Map/00_he-thong/01_CHANNEL-BIBLE.md`**. Nếu
 | Mở Studio | `npm run dev` → http://localhost:3000 (`.claude/launch.json`: `remotion-studio`) |
 | Kiểm tra code | `npm run lint` (sau mỗi thay đổi) |
 | Ảnh kiểm tra 1 khung | `npx remotion still <id> out/check.png --frame=<n> --props='{"safeGuide":true}' --scale=0.35` |
-| Render tập | `npx remotion render <id> out/<slug>-raw.mp4 --crf=18`, rồi master: `loudnorm=I=-14:TP=-2:LRA=11,aresample=48000,alimiter=limit=0.72:level=false`, AAC 256k |
+| Render tập | `npx remotion render <id> out/<slug>-raw.mp4 --crf=18`, rồi master: `loudnorm=I=-14:TP=-2:LRA=11,aresample=48000,alimiter=limit=0.72:level=false`, AAC 256k, `-movflags +faststart` |
+| Soát hình (skill `review-loop`) | `python -P scripts/review.py <slug> --beats` (1 khung / câu VO) · `--from 3 --to 5 --every 0.2` · `--at 12.3` · không cờ = mỗi 0,5 s + kiểm khung 0 / đứng yên / chỗ nối vòng |
+| Soát tiếng | `node scripts/wave.mjs <slug> [file] [--marks <giây SFX>]` → `out/wave-<slug>.png` + LUFS / true peak |
 | Giọng đọc | `node scripts/episode.mjs prep "Map/<slug>"` → `npm run voiceover -- voiceover/<slug>.json` → `node scripts/episode.mjs export "Map/<slug>" --loop --tail=0.7` → `python -P scripts/words.py <slug> en` |
 | Kiểm tra key TTS | `npm run tts:check` (không tốn quota) |
 
@@ -83,6 +85,10 @@ public/sfx/           SFX + nhạc Pixabay (mp3 chỉ trên máy; catalog.json �
 - `scripts/episode.mjs` vẫn đặt giọng mặc định `Orus` của Atlas; đổi khi đã chọn giọng.
 - Key trong `gemini_key.txt` (không commit, **không in, không log**). Free Tier: 10 request/ngày/key/model.
 - Bản thu thô được cache theo nội dung. Đổi tempo, khoảng nghỉ hay bỏ câu cuối của một lượt thì **không tốn request**.
+
+## Kiểm tra trước khi giao
+
+Chạy skill **`review-loop`** (`.claude/skills/review-loop/SKILL.md`) tới khi một vòng soát không còn lỗi: `npm run lint`, sheet theo nhịp, checklist đạt/trượt (khung 0, một điểm nhìn, thời gian đọc, màu, vùng an toàn, bề ngang 360 px), `wave.mjs`. Báo cáo: kiểm gì, sửa gì, sheet nào chứng minh; không nhận đã sửa khi chưa render lại.
 
 ## Bản quyền & bảo mật
 

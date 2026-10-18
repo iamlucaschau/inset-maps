@@ -122,8 +122,8 @@ const prep = (dir) => {
   const existing = fs.existsSync(voPath) ? JSON.parse(fs.readFileSync(voPath, "utf8")) : {};
   const json = {
     name: ep.slug,
-    model: existing.model ?? "gemini-3.8-flash-tts",
-    voice: existing.voice ?? "Orus",
+    model: existing.model ?? "gemini-3.8-flash-lite-tts", // Inset Maps: not Atlas's model (separate quota)
+    voice: existing.voice ?? "Charon", // Lucas 2026-10-17
     style:
       existing.style ??
       // Series voice direction (bible §6, 2026-10-07). Keep tempo 1.0: forcing speed kills the emotion.

@@ -1,0 +1,249 @@
+{
+  "name": "p5-toledo-war",
+  "model": "gemini-3.8-flash-lite-tts",
+  "voice": "Charon",
+  "style": "General American accent. Calm, confident documentary narrator with dry wit, like explaining a map to a curious friend. Conversational, not hyped. Slightly slower on numbers, dates and place names. Maumee is pronounced \"MAW-mee\". \"Blame Toledo.\" is dry and deadpan. \"So who got hurt?\" is a light question; \"One sheriff.\" is short, after a tiny pause. Before \"Two Stickney\" take a small comic pause. \"Iron. And copper.\" lands slowly, one beat apart. The last two sentences are calm and a little slower, falling at the end. Never shout.",
+  "trimSilence": true,
+  "tempo": 1.32,
+  "gaps": {
+    "sentence": 0.08,
+    "paragraph": 0.15,
+    "scene": 0.25
+  },
+  "batchBy": "take",
+  "lines": [
+    {
+      "id": "01",
+      "scene": "s1",
+      "take": "t01",
+      "gapAfter": 0.12,
+      "text": "This peninsula touches Wisconsin."
+    },
+    {
+      "id": "02",
+      "scene": "s1",
+      "take": "t01",
+      "gapAfter": 0.12,
+      "text": "It belongs to Michigan."
+    },
+    {
+      "id": "03",
+      "scene": "s1",
+      "take": "t01",
+      "gapAfter": 0.3,
+      "text": "Blame Toledo."
+    },
+    {
+      "id": "04",
+      "scene": "s2",
+      "take": "t02",
+      "gapAfter": 0.12,
+      "text": "In 1787, Congress drew a line straight east from the bottom of Lake Michigan."
+    },
+    {
+      "id": "05",
+      "scene": "s2",
+      "take": "t02",
+      "gapAfter": 0.12,
+      "text": "Michigan above, Ohio below."
+    },
+    {
+      "id": "06",
+      "scene": "s2",
+      "take": "t02",
+      "gapAfter": 0.3,
+      "text": "One problem: the maps of the day put the lake too far north."
+    },
+    {
+      "id": "07",
+      "scene": "s3",
+      "take": "t03",
+      "gapAfter": 0.12,
+      "text": "Ohio's survey put the line above the mouth of the Maumee River, and the town of Toledo."
+    },
+    {
+      "id": "08",
+      "scene": "s3",
+      "take": "t03",
+      "gapAfter": 0.12,
+      "text": "Michigan's survey followed the 1787 law, and kept Toledo."
+    },
+    {
+      "id": "09",
+      "scene": "s3",
+      "take": "t03",
+      "gapAfter": 0.3,
+      "text": "Between them: a strip up to eight miles wide."
+    },
+    {
+      "id": "10",
+      "scene": "s4",
+      "take": "t04a",
+      "gapAfter": 0.12,
+      "text": "By 1835, both sides were ready for war.",
+      "style": "General American accent. Calm, confident documentary narrator with dry wit. Conversational. Slightly slower on numbers."
+    },
+    {
+      "id": "11",
+      "scene": "s4",
+      "take": "t04a",
+      "gapAfter": 0.12,
+      "text": "Michigan's governor was 23.",
+      "style": "General American accent. Calm, confident documentary narrator with dry wit. Conversational. Slightly slower on numbers."
+    },
+    {
+      "id": "12",
+      "scene": "s4",
+      "take": "t04a",
+      "gapAfter": 0.12,
+      "text": "The Boy Governor.",
+      "style": "General American accent. Calm, confident documentary narrator with dry wit. Conversational. Slightly slower on numbers."
+    },
+    {
+      "id": "13",
+      "scene": "s4",
+      "take": "t04b",
+      "gapAfter": 0.12,
+      "text": "Ohio set aside $300,000 for the fight.",
+      "style": "General American accent. Calm, confident documentary narrator with dry wit. Conversational. Slightly slower on numbers."
+    },
+    {
+      "id": "14",
+      "scene": "s4",
+      "take": "t04b",
+      "gapAfter": 0.12,
+      "text": "Michigan set aside $315,000.",
+      "style": "General American accent. Calm, confident documentary narrator with dry wit. Conversational. Slightly slower on numbers."
+    },
+    {
+      "id": "15",
+      "scene": "s4",
+      "take": "t04b",
+      "gapAfter": 0.12,
+      "text": "Its militia fired into the air and arrested nine surveyors.",
+      "style": "General American accent. Calm, confident documentary narrator with dry wit. Conversational. Slightly slower on numbers."
+    },
+    {
+      "id": "16",
+      "scene": "s4",
+      "take": "t04c",
+      "gapAfter": 0.3,
+      "text": "So who got hurt?",
+      "style": "General American accent. Calm, confident documentary narrator with dry wit. Conversational. Slightly slower on numbers."
+    },
+    {
+      "id": "17",
+      "scene": "s4",
+      "take": "t04c",
+      "gapAfter": 0.2,
+      "text": "One sheriff.",
+      "style": "General American accent. Calm, confident documentary narrator with dry wit. Conversational. Slightly slower on numbers."
+    },
+    {
+      "id": "18",
+      "scene": "s4",
+      "take": "t04c",
+      "gapAfter": 0.3,
+      "text": "He was stabbed with a penknife, by a man named... Two Stickney.",
+      "style": "General American accent. Calm, confident documentary narrator with dry wit. Conversational. Slightly slower on numbers."
+    },
+    {
+      "id": "19",
+      "scene": "s5",
+      "take": "t05",
+      "gapAfter": 0.12,
+      "text": "Then Congress made an offer: give Ohio the strip, take the western Upper Peninsula instead."
+    },
+    {
+      "id": "20",
+      "scene": "s5",
+      "take": "t05",
+      "gapAfter": 0.12,
+      "text": "Michigan said no."
+    },
+    {
+      "id": "21",
+      "scene": "s5",
+      "take": "t05",
+      "gapAfter": 0.12,
+      "text": "Then, in a freezing December, it said yes."
+    },
+    {
+      "id": "22",
+      "scene": "s5",
+      "take": "t05",
+      "gapAfter": 0.3,
+      "text": "Some say the Ohio State–Michigan rivalry started right here."
+    },
+    {
+      "id": "23",
+      "scene": "s6",
+      "take": "t06",
+      "gapAfter": 0.3,
+      "text": "And the consolation prize?"
+    },
+    {
+      "id": "24",
+      "scene": "s6",
+      "take": "t06",
+      "gapAfter": 0.4,
+      "text": "Iron."
+    },
+    {
+      "id": "25",
+      "scene": "s6",
+      "take": "t06",
+      "gapAfter": 0.25,
+      "text": "And copper."
+    },
+    {
+      "id": "26",
+      "scene": "s6",
+      "take": "t06",
+      "gapAfter": 0.12,
+      "text": "In 1844, a surveyor named William Burt watched his compass needle go haywire."
+    },
+    {
+      "id": "27",
+      "scene": "s6",
+      "take": "t06",
+      "gapAfter": 0.12,
+      "text": "The ground under him was full of iron."
+    },
+    {
+      "id": "28",
+      "scene": "s6",
+      "take": "t06",
+      "gapAfter": 0.3,
+      "text": "Then, for forty years, Michigan mined more copper than any other state."
+    },
+    {
+      "id": "29",
+      "scene": "s7",
+      "take": "t07",
+      "gapAfter": 0.12,
+      "text": "Ohio got Toledo."
+    },
+    {
+      "id": "30",
+      "scene": "s7",
+      "take": "t07",
+      "gapAfter": 0.3,
+      "text": "Michigan got the copper."
+    },
+    {
+      "id": "31",
+      "scene": "s7",
+      "take": "t07",
+      "gapAfter": 0.12,
+      "text": "The headline changes."
+    },
+    {
+      "id": "32",
+      "scene": "s7",
+      "take": "t07",
+      "gapAfter": 0.3,
+      "text": "The map doesn't."
+    }
+  ]
+}

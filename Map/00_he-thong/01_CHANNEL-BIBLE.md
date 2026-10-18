@@ -83,7 +83,7 @@ nguy cơ dính chính sách *inauthentic content* của YouTube (§10).
    - **Không đùa** trong tập về xung đột đang có thương vong (§8).
 4. **Chủ đề tranh chấp → 2 câu hai phe**, mỗi vế có nguồn.
 5. **Mỗi câu tối đa 1 con số mới.**
-6. **Twist là nhịp nội dung cuối**, trước câu chữ ký.
+6. **Twist là nhịp nội dung cuối**, trước câu chữ ký. Twist cũng là **khoảnh khắc đỉnh duy nhất** của video: chỉ ở đây mới dùng hiệu ứng mạnh nhất (pop đàn hồi + SFX deep hit); không nhịp nào trước đó được tiêu nó (Lucas 2026-10-17).
 7. **Câu chuyển xoay vòng:** "Look at the map", "Now zoom out", "Follow the river", "Here's the catch"… Mỗi câu tối đa
    1 lần trong 3 tập liền.
    - Không dùng câu kết "next time someone says… just remember" của Cartogram Earth.
@@ -135,21 +135,24 @@ Dùng lại phần lõi của kit Toy Atlas: camera, `CountryTag`, `Route`, ph�
 | **Dòng chảy** | `Route` + chấm chạy liên tục dọc sông / tuyến tàu / đường ống |
 | **Thẻ chữ to** | Phía trên: ≤ 3 từ + 1 dòng phụ nhỏ (số, năm, **thẻ ngày** "SEP 22, 2026", cặp phán quyết đối đầu). Tối đa 2 khối chữ cùng lúc ngoài phụ đề |
 | **Phụ đề** | Karaoke **1–3 từ, ≤ 18 ký tự**, chữ đang đọc màu nhấn. Font **Manrope 800**, hoa đầu câu (không IN HOA condensed), ≥ 48 px |
+| **Thời gian đọc** | Chữ / thẻ đứng yên ≥ 1 s cho cụm ngắn, + 0,25 s mỗi từ quá 3; câu chốt cuối ≥ 2 s. Chữ không chạy khi đang được đọc |
+| **Vào / ra** | Vào ease-out; **ra nhanh bằng khoảng một nửa**, ease-in `bezier(0.6, 0, 0.9, 0.35)` (`fadeOut`, `show` trong kit J) |
+| **Hạt nhiễu** | Lớp grain ~0,09 đổi hạt mỗi 2 khung, có sẵn trong `NightMap`: chống vệt dải màu khi YouTube nén nền tối |
 | **Camera** | Một bản đồ liền. **Bay khi đổi nơi** (ease in-out, ≥ 20 khung, không vượt đích, không blur) + đẩy chậm ≤ 4 % / 3 s. Không rung, không zoom giật. Lucas duyệt ngoại lệ này cho kênh mới 2026-10-16 (như style I) |
 | **Chèn ảnh** | Tối đa 1 ảnh vệ tinh / ảnh tư liệu mỗi tập, nguồn công cộng hoặc có giấy phép, crossfade ≤ 8 khung |
+| **Khung phóng to (inset): dấu ấn kênh** | Lucas 2026-10-17: **mỗi tập ít nhất một inset** (`Inset`): khung viền trắng bo góc đặt trên bản đồ, đường nối nét đứt + ô vuông chỉ đúng chỗ được phóng to. Dùng khi chi tiết quá nhỏ ở cỡ bản đồ của câu chuyện (dải đất, vịnh, khúc biên giới). Trong inset vẫn tính luật ≤ 2 khối chữ |
 | **Vùng an toàn** | Mọi chữ, số, hình chính trong **x 60–940, y 220–1440**; kiểm bằng `safeGuide` |
 | **Không có** | ảnh AI của người thật (chính trị gia…), máu, vũ khí đang bắn, ảnh nạn nhân |
 
 ## 6. Giọng đọc tiếng Anh (Gemini TTS)
 
-- **Model riêng, khác Atlas** (Lucas 2026-10-16). Atlas dùng `gemini-3.8-flash-tts`; quota tính theo model, theo key, nên kênh tiếng Anh dùng model khác thì không tranh quota dù chung key. Chọn model cụ thể ở tập thử (so chất lượng giọng), rồi giữ cố định.
-- **Thử giọng ở tập thử:** cùng 2 câu, đọc bằng **Charon**, **Sadaltager**, **Iapetus**, **Rasalgethi** (nam) và
-  **Kore** (nữ). Lucas chọn 1 giọng, sau đó giữ cố định cho kênh.
+- **Model riêng, khác Atlas** (Lucas 2026-10-16). Atlas dùng `gemini-3.8-flash-tts`; quota tính theo model, theo key, nên kênh tiếng Anh dùng model khác thì không tranh quota dù chung key. **Model: `gemini-3.8-flash-lite-tts`** (2026-10-17). Bản thô đọc ~130 từ/phút → tempo ~1.25 để đạt 165–180.
+- **Giọng: Charon** (Lucas 2026-10-17, sau khi nghe 5 giọng thử ở tập Toledo: Charon, Sadaltager, Iapetus, Rasalgethi, Kore). Giữ cố định cho cả kênh.
 - Chỉ dẫn giọng mặc định: *"General American accent. Calm, confident documentary narrator with dry wit. Conversational,
   not hyped. Slightly slower on numbers, dates and place names. Never shout."*
 - Phát âm địa danh khó (Essequibo, Jhelum…): kiểm từng tập; khi cần thì viết theo cách đọc trong `text` và giữ chính tả
   đúng trên màn hình.
-- Nhạc nền Pixabay −28 LUFS, SFX thật −15 LUFS, tối đa 1 SFX mỗi nhịp. Master −14 LUFS / −2 dBTP (như Atlas).
+- Nhạc nền Pixabay −28 LUFS, SFX thật −15 LUFS, tối đa 1 SFX mỗi nhịp. Master −14 LUFS / −2 dBTP (như Atlas), xuất có `-movflags +faststart`. Kiểm bằng `node scripts/wave.mjs <slug>`.
 
 ## 7. Cấu trúc bắt buộc mọi tập
 
@@ -251,8 +254,8 @@ Dùng lại phần lõi của kit Toy Atlas: camera, `CountryTag`, `Route`, ph�
 | 2 | Câu chữ ký | ✅ "The headline changes. The map doesn't." |
 | 3 | Bảng màu + font | ✅ "Night chart" + nhấn san hô; Manrope 800 |
 | 4 | Camera bay khi đổi nơi | ✅ Cho phép như style I |
-| 5 | Giọng | ✅ Thử 5 giọng ở tập thử, Lucas chọn 1 |
-| 6 | Model TTS riêng cho kênh tiếng Anh | ✅ Có |
+| 5 | Giọng | ✅ Charon (2026-10-17) |
+| 6 | Model TTS riêng cho kênh tiếng Anh | ✅ `gemini-3.8-flash-lite-tts` |
 | 7 | Làn nhanh cho tin nóng | ✅ Chỉ cho P1 |
 | 8 | Nhịp đăng | ✅ 3 tập / tuần trong 4 tuần đầu |
 
@@ -268,3 +271,5 @@ The Meridian Desk, The Map Desk, WhyHereMaps, Why There (@WhyThereMaps), Pin Dro
 | 2026-10-16 | Duyệt Bible v0.2: câu chữ ký, night chart + Manrope 800, camera bay khi đổi nơi, thử 5 giọng, model TTS riêng, làn nhanh chỉ P1, 3 tập / tuần | Lucas |
 | 2026-10-16 | Tên kênh: **Inset Maps** (@InsetMaps) | Lucas |
 | 2026-10-17 | Tách thành dự án riêng `Inset Maps` + repo `iamlucaschau/inset-maps` | Lucas |
+| 2026-10-17 | Giọng Charon, model `gemini-3.8-flash-lite-tts`; duyệt giao diện style J (khung mẫu tập Toledo); **inset là dấu ấn kênh, mỗi tập ≥ 1** | Lucas |
+| 2026-10-17 | Học 8 điểm từ `whaleyxbt/claude-motion` (`DE-XUAT-CLAUDE-MOTION.md`): skill `review-loop`, sheet theo nhịp, `wave.mjs`, thời gian đọc, ra nhanh hơn vào, grain, một khoảnh khắc đỉnh, `+faststart`; giữ SFX thật | Lucas |

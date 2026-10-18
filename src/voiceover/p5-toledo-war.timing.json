@@ -1,0 +1,231 @@
+{
+  "durationInSeconds": 75.76454166666667,
+  "loop": true,
+  "tail": 0.7,
+  "lines": [
+    {
+      "id": "01",
+      "scene": "s1",
+      "start": 0.05,
+      "end": 1.746,
+      "text": "This peninsula touches Wisconsin."
+    },
+    {
+      "id": "02",
+      "scene": "s1",
+      "start": 1.8664166666666666,
+      "end": 2.986416666666667,
+      "text": "It belongs to Michigan."
+    },
+    {
+      "id": "03",
+      "scene": "s1",
+      "start": 3.106,
+      "end": 3.8259999999999996,
+      "text": "Blame Toledo."
+    },
+    {
+      "id": "04",
+      "scene": "s2",
+      "start": 4.125708333333333,
+      "end": 8.610708333333333,
+      "text": "In 1787, Congress drew a line straight east from the bottom of Lake Michigan."
+    },
+    {
+      "id": "05",
+      "scene": "s2",
+      "start": 8.7305,
+      "end": 10.4345,
+      "text": "Michigan above, Ohio below."
+    },
+    {
+      "id": "06",
+      "scene": "s2",
+      "start": 10.554583333333333,
+      "end": 13.400583333333334,
+      "text": "One problem: the maps of the day put the lake too far north."
+    },
+    {
+      "id": "07",
+      "scene": "s3",
+      "start": 13.700833333333334,
+      "end": 17.504833333333334,
+      "text": "Ohio's survey put the line above the mouth of the Maumee River, and the town of Toledo."
+    },
+    {
+      "id": "08",
+      "scene": "s3",
+      "start": 17.625041666666668,
+      "end": 21.47504166666667,
+      "text": "Michigan's survey followed the 1787 law, and kept Toledo."
+    },
+    {
+      "id": "09",
+      "scene": "s3",
+      "start": 21.594625,
+      "end": 23.952625,
+      "text": "Between them: a strip up to eight miles wide."
+    },
+    {
+      "id": "10",
+      "scene": "s4",
+      "start": 24.252916666666668,
+      "end": 27.193916666666667,
+      "text": "By 1835, both sides were ready for war."
+    },
+    {
+      "id": "11",
+      "scene": "s4",
+      "start": 27.313458333333333,
+      "end": 29.103458333333332,
+      "text": "Michigan's governor was 23."
+    },
+    {
+      "id": "12",
+      "scene": "s4",
+      "start": 29.222958333333334,
+      "end": 30.021958333333334,
+      "text": "The Boy Governor."
+    },
+    {
+      "id": "13",
+      "scene": "s4",
+      "start": 30.142375,
+      "end": 33.322375,
+      "text": "Ohio set aside $300,000 for the fight."
+    },
+    {
+      "id": "14",
+      "scene": "s4",
+      "start": 33.44241666666667,
+      "end": 35.988416666666666,
+      "text": "Michigan set aside $315,000."
+    },
+    {
+      "id": "15",
+      "scene": "s4",
+      "start": 36.108,
+      "end": 39.599999999999994,
+      "text": "Its militia fired into the air and arrested nine surveyors."
+    },
+    {
+      "id": "16",
+      "scene": "s4",
+      "start": 39.720124999999996,
+      "end": 40.806124999999994,
+      "text": "So who got hurt?"
+    },
+    {
+      "id": "17",
+      "scene": "s4",
+      "start": 41.10645833333333,
+      "end": 41.76545833333333,
+      "text": "One sheriff."
+    },
+    {
+      "id": "18",
+      "scene": "s4",
+      "start": 41.96554166666666,
+      "end": 45.03454166666666,
+      "text": "He was stabbed with a penknife, by a man named... Two Stickney."
+    },
+    {
+      "id": "19",
+      "scene": "s5",
+      "start": 45.33487499999999,
+      "end": 50.15887499999999,
+      "text": "Then Congress made an offer: give Ohio the strip, take the western Upper Peninsula instead."
+    },
+    {
+      "id": "20",
+      "scene": "s5",
+      "start": 50.278541666666655,
+      "end": 51.043541666666655,
+      "text": "Michigan said no."
+    },
+    {
+      "id": "21",
+      "scene": "s5",
+      "start": 51.16333333333332,
+      "end": 54.02133333333332,
+      "text": "Then, in a freezing December, it said yes."
+    },
+    {
+      "id": "22",
+      "scene": "s5",
+      "start": 54.14145833333332,
+      "end": 56.59845833333332,
+      "text": "Some say the Ohio State–Michigan rivalry started right here."
+    },
+    {
+      "id": "23",
+      "scene": "s6",
+      "start": 56.89837499999999,
+      "end": 58.161374999999985,
+      "text": "And the consolation prize?"
+    },
+    {
+      "id": "24",
+      "scene": "s6",
+      "start": 58.46116666666666,
+      "end": 59.016166666666656,
+      "text": "Iron."
+    },
+    {
+      "id": "25",
+      "scene": "s6",
+      "start": 59.41612499999999,
+      "end": 59.972124999999984,
+      "text": "And copper."
+    },
+    {
+      "id": "26",
+      "scene": "s6",
+      "start": 60.22258333333332,
+      "end": 64.57458333333332,
+      "text": "In 1844, a surveyor named William Burt watched his compass needle go haywire."
+    },
+    {
+      "id": "27",
+      "scene": "s6",
+      "start": 64.69441666666665,
+      "end": 66.27541666666666,
+      "text": "The ground under him was full of iron."
+    },
+    {
+      "id": "28",
+      "scene": "s6",
+      "start": 66.39491666666666,
+      "end": 70.17191666666666,
+      "text": "Then, for forty years, Michigan mined more copper than any other state."
+    },
+    {
+      "id": "29",
+      "scene": "s7",
+      "start": 70.47191666666666,
+      "end": 71.69291666666666,
+      "text": "Ohio got Toledo."
+    },
+    {
+      "id": "30",
+      "scene": "s7",
+      "start": 71.81266666666666,
+      "end": 73.07466666666666,
+      "text": "Michigan got the copper."
+    },
+    {
+      "id": "31",
+      "scene": "s7",
+      "start": 73.37491666666666,
+      "end": 74.38091666666666,
+      "text": "The headline changes."
+    },
+    {
+      "id": "32",
+      "scene": "s7",
+      "start": 74.501125,
+      "end": 75.464125,
+      "text": "The map doesn't."
+    }
+  ]
+}

@@ -21,6 +21,7 @@ import subprocess
 import unicodedata
 from difflib import SequenceMatcher
 import sys
+sys.stdout.reconfigure(encoding="utf-8")  # Windows console: ⚠ and other symbols
 import wave
 from pathlib import Path
 
